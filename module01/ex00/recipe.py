@@ -14,6 +14,7 @@ class Recipe:
 		self.cooking_time = cooking_time
 		self.ingredients = ingredients
 		self.description = ""
+		self.recipe_type = recipe_type
 		if not type(self.name) is str:
 			print("name Error")
 			exit()
